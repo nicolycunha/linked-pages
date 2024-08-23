@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Kantumruy Pro', sans-serif;
-  background: #ffeefd;
+  background-image: url(../assets/images/background.jpg);
+  background-size: cover;
 }
 
 main {
@@ -16,10 +17,10 @@ main {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 50%;
   width: 150px;
-  height: 150px;
+  /* height: 150px; */
   padding: 4px;
   border: #7c35b4 solid 4px;
 }
@@ -65,4 +66,21 @@ ul li a:hover {
   transition: 1s;
   background: #7c35b4;
   border-color: #390c5c;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background: #FFF1E8;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #AC81B6;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #896192;
 }
