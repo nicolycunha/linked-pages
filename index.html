@@ -2,16 +2,43 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./public/site.webmanifest" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Links</title>
+
+    <title>Links | Nicoly Cunha</title>
   </head>
   <body>
     <main>
@@ -26,46 +53,59 @@
 
       <ul>
         <li>
-          <a href="https://t.me/+NWpRHEyV6d1mZmVh" target="_blank"
-            >🗨️ Grupo do telegram</a
+          <a href="https://portfolio-nicolycunha.netlify.app/" target="_blank">
+            <i class="hgi hgi-stroke hgi-computer-programming-01"></i>
+            Meu portfólio</a
           >
         </li>
         <li>
-          <a href="https://maratona.app/lc/lcunha-0924" target="_blank"
-            >📖 Leitura coletiva no maratona.app</a
+          <a href="https://www.linkedin.com/in/nicolycunha/" target="_blank">
+            <i class="hgi hgi-stroke hgi-linkedin-01"></i>LinkedIn</a
           >
         </li>
         <li>
-          <a href="https://www.twitch.tv/nicunha" target="_blank">🎧 Twitch</a>
+          <a href="https://github.com/nicolycunha" target="_blank"
+            ><i class="hgi hgi-stroke hgi-sharp hgi-github"></i> GitHub</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/nii.cunha/" target="_blank">
+            <i class="hgi hgi-stroke hgi-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@nii.cunha" target="_blank"
+            ><i class="hgi hgi-stroke hgi-tiktok"></i> Tiktok</a
+          >
+        </li>
+        <li>
+          <a href="https://www.twitch.tv/nicunha" target="_blank"
+            ><i class="hgi hgi-stroke hgi-twitch"></i> Twitch</a
+          >
         </li>
         <li>
           <a
             href="https://www.skoob.com.br/usuario/7469995-nick"
             target="_blank"
-            >🦉 Skoob</a
+          >
+            <img src="./assets/skoob.svg" alt="" />
+            Skoob</a
           >
         </li>
         <li>
-          <a href="https://www.tiktok.com/@nii.cunha" target="_blank"
-            >💃🏼 Tiktok</a
-          >
-        </li>
-        <li>
-          <a href="https://www.instagram.com/nii.cunha/" target="_blank">
-            📷 Instagram</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/nicolycunha" target="_blank">🐱 GitHub</a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/nicoly-oliveira-da-cunha/"
-            target="_blank"
-            >🖇️ LinkedIn</a
+          <a href="https://t.me/+NWpRHEyV6d1mZmVh" target="_blank"
+            ><i class="hgi hgi-stroke hgi-telegram"></i> Grupo do telegram</a
           >
         </li>
       </ul>
     </main>
+    <footer id="footer"></footer>
   </body>
 </html>
+
+<script>
+  const year = new Date().getFullYear()
+  const footer = document.getElementById('footer')
+
+  footer.innerText = `Copyright © ${year} Nicoly Cunha. Todos os direitos reservados.`
+</script>

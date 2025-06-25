@@ -17,4 +17,5 @@ Este repositório foi criado base na maratona explorer 2.0 da <a href="https://w
 
 # Techs utilizadas: 
 HTML<br>
-CSS
+CSS<br>
+JS
