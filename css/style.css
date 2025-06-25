@@ -70,7 +70,6 @@ ul li a {
   color: #e7e5e4;
   gap: 32px;
   margin-bottom: 16px;
-  -webkit-tap-highlight-color: transparent;
 }
 
 ul li a img {
